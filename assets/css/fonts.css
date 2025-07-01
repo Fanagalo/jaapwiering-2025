@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Bricolage";
+    src: url("../fonts/BricolageGrotesque.woff2") format("woff2");
+    font-weight: 200 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SourceSerif4";
+    src: url("../fonts/SourceSerif4.woff2") format("woff2");
+    font-weight: 200 1000;
+    font-style: normal;
+    font-display: swap;
+}

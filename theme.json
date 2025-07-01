@@ -1,0 +1,147 @@
+{
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {
+                    "color": "#000000",
+                    "name": "zwart",
+                    "slug": "fngllw-zwart"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "wit",
+                    "slug": "fngllw-wit"
+                },
+                {
+                    "color": "#333333",
+                    "name": "text",
+                    "slug": "fngllw-text"
+                },
+                {
+                    "color": "#ffeca6",
+                    "name": "background",
+                    "slug": "fngllw-background"
+                },
+                {
+                    "color": "#b70000",
+                    "name": "donkerrood",
+                    "slug": "fngllw-donkerrood"
+                },
+                {
+                    "color": "#003aa6",
+                    "name": "donkerblauw",
+                    "slug": "fngllw-donkerblauw"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "620px",
+            "wideSize": "1000px"
+        },
+        "spacing": {
+            "units": ["%", "px", "em", "rem", "vh", "vw"]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Bricolage",
+                            "fontStyle": "normal",
+                            "fontWeight": "200 800",
+                            "src": [
+                                "file:./assets/fonts/BricolageGrotesque.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Bricolage, sans-serif",
+                    "name": "Bricolage",
+                    "slug": "bricolage"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "SourceSerif4",
+                            "fontStyle": "normal",
+                            "fontWeight": "200 900",
+                            "src": ["file:./assets/fonts/SourceSerif4.woff2"]
+                        }
+                    ],
+                    "fontFamily": "SourceSerif4, serif",
+                    "name": "SourceSerif4",
+                    "slug": "sourceserif4"
+                },
+                {
+                    "fontFamily": "Consolas, 'Courier New', Courier, monospace",
+                    "name": "Monospace",
+                    "slug": "monospace"
+                }
+            ]
+        },
+        "useRootPaddingAwareAlignments": true
+    },
+    "styles": {
+        "color": {
+            "background": "#ffeca6",
+            "text": "#333333"
+        },
+        "blocks": {
+            "core/button": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--bricolage)"
+                }
+            },
+            "core/code": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--monospace)"
+                }
+            },
+            "core/comments": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--bricolage)"
+                }
+            },
+            "core/navigation": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--bricolage)",
+                    "fontStyle": "normal",
+                    "fontWeight": "700"
+                }
+            },
+            "core/navigation-submenu": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--bricolage)"
+                }
+            },
+            "core/preformatted": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--monospace)"
+                }
+            }
+        },
+        "elements": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--bricolage)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--sourceserif4)"
+        }
+    },
+    "templateParts": [
+        {
+            "area": "header",
+            "name": "header"
+        },
+        {
+            "area": "footer",
+            "name": "footer"
+        }
+    ],
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/6.8/theme.json"
+}
