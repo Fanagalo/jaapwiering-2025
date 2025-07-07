@@ -46,6 +46,34 @@
         "typography": {
             "fontFamilies": [
                 {
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+                    "name": "System Font",
+                    "slug": "system-font"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Petrona",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/Petrona-VariableFont_wght.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Petrona",
+                            "fontStyle": "italic",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/Petrona-Italic-VariableFont_wght.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Petrona, serif",
+                    "name": "Petrona",
+                    "slug": "petrona"
+                },
+                {
                     "fontFace": [
                         {
                             "fontFamily": "Bricolage",
@@ -61,58 +89,20 @@
                     "slug": "bricolage"
                 },
                 {
-                    "fontFace": [
-                        {
-                            "fontFamily": "SourceSerif4",
-                            "fontStyle": "normal",
-                            "fontWeight": "200 900",
-                            "src": ["file:./assets/fonts/SourceSerif4.woff2"]
-                        }
-                    ],
-                    "fontFamily": "SourceSerif4, serif",
-                    "name": "SourceSerif4",
-                    "slug": "sourceserif4"
-                },
-                {
                     "fontFamily": "Consolas, 'Courier New', Courier, monospace",
                     "name": "Monospace",
                     "slug": "monospace"
                 }
-            ]
+            ],
+            "fontSizes": []
         },
         "useRootPaddingAwareAlignments": true
     },
     "styles": {
-        "color": {
-            "background": "#ffeca6",
-            "text": "#333333"
-        },
         "blocks": {
-            "core/button": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--bricolage)"
-                }
-            },
             "core/code": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--monospace)"
-                }
-            },
-            "core/comments": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--bricolage)"
-                }
-            },
-            "core/navigation": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--bricolage)",
-                    "fontStyle": "normal",
-                    "fontWeight": "700"
-                }
-            },
-            "core/navigation-submenu": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--bricolage)"
                 }
             },
             "core/preformatted": {
@@ -121,15 +111,15 @@
                 }
             }
         },
-        "elements": {
-            "heading": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--bricolage)"
-                }
-            }
+        "color": {
+            "background": "var(--wp--preset--color--fngllw-background)",
+            "text": "#333333"
         },
+        "elements": [],
         "typography": {
-            "fontFamily": "var(--wp--preset--font-family--sourceserif4)"
+            "fontFamily": "var(--wp--preset--font-family--bricolage)",
+            "fontSize": "var(--wp--preset--font-size--medium)",
+            "lineHeight": "1.6"
         }
     },
     "templateParts": [

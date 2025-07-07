@@ -7,9 +7,19 @@
 }
 
 @font-face {
-    font-family: "SourceSerif4";
-    src: url("../fonts/SourceSerif4.woff2") format("woff2");
-    font-weight: 200 1000;
+    font-family: "Petrona";
+    src: url("../fonts/Petrona-VariableFont_wght.woff2") format("woff2");
+    font-optical-sizing: auto;
+    font-weight: 100 900;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Petrona";
+    src: url("../fonts/Petrona-Italic-VariableFont_wght.woff2") format("woff2");
+    font-optical-sizing: auto;
+    font-weight: 100 900;
+    font-style: italic;
     font-display: swap;
 }
