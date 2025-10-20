@@ -22,8 +22,9 @@ add_action( 'wp_enqueue_scripts', 'fngllw_enqueue_local_fonts' );
  * Dark mode enqueue style and script
  */
 
-function fngllw_enqueue_darkmode() {
+function fngllw_enqueue_lightdarkmode() {
+    wp_enqueue_style('lightmode-style', get_template_directory_uri() . '/assets/css/lightmode.css', array(), null);
     wp_enqueue_style('darkmode-style', get_template_directory_uri() . '/assets/css/darkmode.css', array(), null);
-    wp_enqueue_script('darkmode-toggle', get_template_directory_uri() . '/assets/js/darkmode-toggle.js', array(), null, true);
+    wp_enqueue_script('lightdarkmode-toggle', get_template_directory_uri() . '/assets/js/lightdarkmode-toggle.js', array(), null, true);
 }
-add_action('wp_enqueue_scripts', 'fngllw_enqueue_darkmode');
+add_action('wp_enqueue_scripts', 'fngllw_enqueue_lightdarkmode');

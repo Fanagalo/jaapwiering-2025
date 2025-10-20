@@ -1,0 +1,20 @@
+/**
+ * new variables for light mode
+ * this requires consistently applying the variables, not the color values
+ */
+
+body.light-mode {
+    --wp--preset--color--fngllw-zwart: #000000;
+    --wp--preset--color--fngllw-wit: #ffffff;
+    --wp--preset--color--fngllw-text: #000000;
+    --wp--preset--color--fngllw-background: #bddcd1;
+    --wp--preset--color--fngllw-background-header: #deede8;
+    --wp--preset--color--fngllw-background-footer: #f5c9b0;
+    --wp--preset--color--custom-accent-citroen: #cfe718;
+    --wp--preset--color--custom-accent-groen: #509f2f;
+    --wp--preset--color--custom-groen-3: #8bc1ad;
+    --wp--preset--color--custom-groen-4: #59a68a;
+    --wp--preset--color--custom-groen-5: #427b66;
+    --wp--preset--color--custom-groen-6: #294c43;
+    --wp--preset--color--custom-groen-7: #1b3229;
+}

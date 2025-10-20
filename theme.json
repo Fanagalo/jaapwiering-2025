@@ -15,30 +15,65 @@
                     "slug": "fngllw-wit"
                 },
                 {
-                    "color": "#333333",
+                    "color": "#cccccc",
                     "name": "text",
                     "slug": "fngllw-text"
                 },
                 {
-                    "color": "#ffeca6",
+                    "color": "#294c3f",
                     "name": "background",
                     "slug": "fngllw-background"
                 },
                 {
-                    "color": "#b70000",
-                    "name": "donkerrood",
-                    "slug": "fngllw-donkerrood"
+                    "color": "#1b3229",
+                    "name": "background header",
+                    "slug": "fngllw-background-header"
                 },
                 {
-                    "color": "#003aa6",
-                    "name": "donkerblauw",
-                    "slug": "fngllw-donkerblauw"
+                    "color": "#f5c9b0",
+                    "name": "background footer",
+                    "slug": "fngllw-background-footer"
+                },
+                {
+                    "color": "#cfe718",
+                    "name": "accent citroen",
+                    "slug": "custom-accent-citroen"
+                },
+                {
+                    "color": "#509f2f",
+                    "name": "accent groen ",
+                    "slug": "custom-accent-groen"
+                },
+                {
+                    "color": "#427b66",
+                    "name": "groen 3",
+                    "slug": "custom-groen-3"
+                },
+                {
+                    "color": "#59a68a",
+                    "name": "groen 4",
+                    "slug": "custom-groen-4"
+                },
+                {
+                    "color": "#8bc1ad",
+                    "name": "groen 5",
+                    "slug": "custom-groen-5"
+                },
+                {
+                    "color": "#bddcd1",
+                    "name": "groen 6",
+                    "slug": "custom-groen-6"
+                },
+                {
+                    "color": "#deede8",
+                    "name": "groen 7",
+                    "slug": "custom-groen-7"
                 }
             ]
         },
         "layout": {
-            "contentSize": "620px",
-            "wideSize": "1000px"
+            "contentSize": "800px",
+            "wideSize": "1200px"
         },
         "spacing": {
             "units": ["%", "px", "em", "rem", "vh", "vw"]
@@ -161,6 +196,24 @@
                     "fontFamily": "var(--wp--preset--font-family--monospace)"
                 }
             },
+            "core/heading": {
+                "color": {
+                    "text": "var(--wp--preset--color--custom-citroen)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--custom-citroen)"
+                        }
+                    }
+                },
+                "spacing": {
+                    "margin": {
+                        "bottom": "0rem",
+                        "top": "var(--wp--preset--spacing--40)"
+                    }
+                }
+            },
             "core/paragraph": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--petrona)",
@@ -171,13 +224,31 @@
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--monospace)"
                 }
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--xx-large)",
+                    "fontStyle": "normal",
+                    "fontWeight": "300"
+                }
             }
         },
         "color": {
             "background": "var(--wp--preset--color--fngllw-background)",
-            "text": "#333333"
+            "text": "var(--wp--preset--color--fngllw-text)"
         },
-        "elements": [],
+        "elements": {
+            "link": {
+                ":hover": {
+                    "color": {
+                        "text": "var(--wp--preset--color--custom-citroen)"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--fngllw-donkerrood)"
+                }
+            }
+        },
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--bricolage)",
             "fontSize": "var(--wp--preset--font-size--medium)",
