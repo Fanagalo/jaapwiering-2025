@@ -258,6 +258,15 @@
 				}
 			}
 		},
+		"spacing": {
+			"blockGap": "0px",
+			"padding": {
+				"bottom": "0px",
+				"left": "0px",
+				"right": "0px",
+				"top": "0px"
+			}
+		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--bricolage)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
